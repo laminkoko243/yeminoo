@@ -170,6 +170,14 @@ header {
     background-color: #BDD2B6;
 }
 
+#img-roww {
+    flex-wrap: wrap;
+}
+
+.dish {
+    flex-basis: 30%;
+}
+
 .dish-img {
     width: 20rem;
     height: 20rem;
@@ -311,6 +319,11 @@ footer span {
     .dish {
         text-align: center;
     }
+    
+    #img-roww {
+        flex-wrap: wrap;
+    }
+    
 
     iframe {
         width: 100%;
